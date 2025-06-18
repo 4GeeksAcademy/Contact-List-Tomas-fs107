@@ -20,7 +20,7 @@ export const Demo = () => {
               {/* Link to the detail page of this todo. */}
               <Link to={"/single/" + item.id}>Link to: {item.title} </Link>
               
-              <p>Open file ./store.js to see the global store that contains and updates the list of colors</p>
+              <p></p>
               
               <button className="btn btn-success" 
                 onClick={() => dispatch({
